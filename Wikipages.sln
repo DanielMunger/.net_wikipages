@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{53232B14-5F55-4722-B269-4B1359F7DE1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E783FCC-545E-42AC-B300-0C53B688B833}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Wikipages", "src\Wikipages\Wikipages.xproj", "{A781563F-EC1D-4379-8583-7DD6706B19A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A781563F-EC1D-4379-8583-7DD6706B19A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A781563F-EC1D-4379-8583-7DD6706B19A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A781563F-EC1D-4379-8583-7DD6706B19A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A781563F-EC1D-4379-8583-7DD6706B19A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A781563F-EC1D-4379-8583-7DD6706B19A4} = {53232B14-5F55-4722-B269-4B1359F7DE1A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Wikipages.Models.Business>
+
+<html>
+<head>
+    <title>Wikipages : Businesses</title>
+</head>
+<body>
+    <h2>Businesses</h2>
+   <table class="table">
+       <tr>
+           <th>
+               @Html.DisplayNameFor(model => model.name)
+           </th>
+           <th>
+               @Html.DisplayNameFor(model => model.Type.type)
+           </th>
+       </tr>
+       @foreach (var business in Model)
+       {
+           <tr>
+               <td>
+                   @Html.DisplayFor(modelBusiness => business.name)
+               </td>
+               <td>
+                   @Html.DisplayFor(modelBusiness => business.Type.type)
+               </td>
+               <td>
+                   @Html.ActionLink("Details", "Details", new { id = business.BusinessId }) @Html.ActionLink("Edit", "Edit", new { id = business.BusinessId }) 
+                   @Html.ActionLink("Delete", "Delete", new { id = business.BusinessId })
+                
+               </td>
+
+           </tr>
+       }
+   </table>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+</body>
+</html>

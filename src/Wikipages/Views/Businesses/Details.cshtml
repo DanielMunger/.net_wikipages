@@ -1,0 +1,26 @@
+﻿@model Wikipages.Models.Business
+
+<html>
+<head>
+    <title>Wikipages - Business Details</title>
+</head>
+<body>
+    <h2>Details</h2>
+    <hr />
+    <p>@Html.DisplayNameFor(model => model.name): @Html.DisplayFor(model => model.name)</p>
+    <hr />
+    <p>@Html.DisplayNameFor(model => model.address) | @Html.DisplayFor(model => model.address)</p>
+    <hr />
+    <p>@Html.DisplayNameFor(model => model.city) | @Html.DisplayFor(model => model.city)</p>
+    <hr />
+    <p>@Html.DisplayNameFor(model => model.state) | @Html.DisplayFor(model => model.state)</p>
+    <hr />
+    <p>@Html.DisplayNameFor(model => model.zip) | @Html.DisplayFor(model => model.zip)</p>
+    <hr />
+    <p>@Html.DisplayNameFor(model => model.phone) | @Html.DisplayFor(model => model.phone)</p>
+    <hr />
+    <p>@Html.DisplayNameFor(model => model.Type.type) | @Html.DisplayFor(model => model.Type.type)</p>
+
+    <p>@Html.ActionLink("Back to List", "Index")</p>
+</body>
+</html>
